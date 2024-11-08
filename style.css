@@ -1,0 +1,65 @@
+  *{
+    background-color: black;
+    margin: 0px;
+
+  }
+ .fade-text {
+        font-size: 4rem;
+        color: white;
+        text-shadow: 
+        0 0 7px  rgb(2, 2, 2),
+        0 0 14px rgba(0, 0, 0, 0.674),
+        0 0 21px rgb(0, 0, 0);
+        font-family:sans-serif;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px ;
+        gap: 1rem;
+        font-size: 50px;
+    }
+    .click a{
+        text-decoration: none;
+        margin-left: 727px;
+        opacity: 0;
+        animation: fadeIn 2s ease 3s forwards;
+
+        
+
+    }
+    .click{
+        margin-top:150px; 
+    }
+    
+
+    .word {
+        opacity: 0;
+        animation: fadeIn 2s ease forwards;
+    }
+   
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+        0% { opacity: 0; transform: translate3d(0px,10px,0px); }
+        100% { opacity: 1; transform: translate3d(0px,0px,0px); }
+    }
+
+    /* Delay for each word */
+    .word:nth-child(1) {
+        animation-delay: 0.5s;
+    }
+    .word:nth-child(2) {
+        animation-delay: 1.5s;
+    }
+   .click a{
+    color: white;
+   }
+
+
+    
+  
+
+
+
+
