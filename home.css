@@ -10,7 +10,7 @@
   justify-content: space-evenly;
   align-items: center;
   animation: fadeIn 2s ease forwards;
-  background-image: url("/Pics/navbarspace1.jpg");
+  background-image: url("/navbarspace1.jpg");
   background-size: cover ;
   
 }
